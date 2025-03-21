@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling with JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px auto;
+      line-height: 200px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border: 2px solid #000;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #text {
+      font-size: 18px;
+      margin: 20px;
+    }
+
+    #circle {
+      width: 100px;
+      height: 100px;
+      background-color: tomato;
+      border-radius: 50%;
+      margin: 20px auto;
+      transition: transform 0.3s ease;
+    }
+
+    </style>
+    <script src="question3.js" defer></script>
+</head>
+<body>
+
+  <div id="box" onclick="changeColor()">Click me to change color</div>
+  
+  <p id="text">Hover over this text to make it yellow.</p>
+
+  <button onclick="increaseFont()">Increase Font Size</button>
+  <button onclick="toggleHighlight()">Toggle Highlight</button>
+
+  <div id="circle" onmouseover="enlargeCircle()" onmouseout="resetCircle()"></div>
+
+</body>
+</html>
