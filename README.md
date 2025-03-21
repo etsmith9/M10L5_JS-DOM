@@ -1,6 +1,6 @@
 # M10L5_JS-DOM
 
-1. Document Manipulation with JavaScript
+QUESTION 1. Document Manipulation with JavaScript
 Objective: The aim of this assignment is to enhance proficiency in manipulating HTML documents dynamically using JavaScript, focusing on the manipulation of arrays and objects to modify document content and structure.
 
 Problem Statement: You are tasked with creating a web page that dynamically updates its content based on user interaction. The page should utilize JavaScript to manipulate the document structure and content using arrays and objects.
@@ -25,7 +25,7 @@ Implementation of an event listener to trigger the display of products upon page
 
 
 
-2. Form Manipulation with JavaScript
+QUESTION 2. Form Manipulation with JavaScript
 Objective: The aim of this assignment is to practice manipulating HTML forms dynamically using JavaScript, with a focus on handling arrays, objects, and form elements to capture user input and modify form behavior.
 
 Problem Statement: You are tasked with creating a web page containing a form that allows users to input their information. The page should utilize JavaScript to dynamically handle form submissions, store input data in arrays and objects, and modify form behavior based on user interaction.
@@ -45,7 +45,7 @@ Implementation of form validation to ensure that all required fields are filled 
 
 
 
-3. Styling with JavaScript
+QUESTION 3. Styling with JavaScript
 Objective: The objective of this assignment is to practice manipulating CSS styles dynamically using JavaScript. By the end of this assignment, students should be able to apply various styling changes to HTML elements based on user interaction or other events.
 
 Problem Statement: You are tasked with creating a web page that demonstrates dynamic styling using JavaScript. The page should include HTML elements that change their appearance in response to user actions or events triggered by JavaScript functions.
